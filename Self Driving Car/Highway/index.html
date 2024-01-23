@@ -1,15 +1,29 @@
 <!DOCTYPE html>
+<html>
 <head>
+    <!-- Set the title of the HTML page -->
     <title>Self-driving car - No libraries</title>
+
+    <!-- Link to an external stylesheet (style.css) for styling -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Canvas element for rendering the car -->
     <canvas id="carCanvas"></canvas>
+
+    <!-- Container for two buttons: Save and Discard -->
     <div id="verticalButtons">
+        <!-- Save button with a floppy disk emoji -->
         <button onclick="save()">💾</button>
+        
+        <!-- Discard button with a trash can emoji -->
         <button onclick="discard()">🗑️</button>
     </div>
+
+    <!-- Canvas element for rendering the neural network visualization -->
     <canvas id="networkCanvas"></canvas>
+
+    <!-- Script tags to include JavaScript files in the correct order -->
     <script src="visualizer.js"></script>
     <script src="network.js"></script>
     <script src="sensor.js"></script>

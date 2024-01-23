@@ -1,0 +1,15 @@
+/* Apply styles to the entire body of the HTML document */
+body {
+   margin: 0; /* Set margin to zero to remove default margin */
+   background: darkgray; /* Set the background color of the body to dark gray */
+   overflow: hidden; /* Hide any content that overflows the body */
+   text-align: center; /* Center-align text within the body */
+}
+/* Apply styles to the canvas with id 'carCanvas' */
+#carCanvas {
+   background: lightgray; /* Set the background color of the car canvas to light gray */
+}
+/* Apply styles to the canvas with id 'networkCanvas' */
+#networkCanvas {
+   background: black; /* Set the background color of the network canvas to black */
+}
